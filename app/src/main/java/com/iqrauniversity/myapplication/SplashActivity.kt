@@ -21,7 +21,12 @@ class SplashActivity : AppCompatActivity() {
             /*val intent = Intent(this,LoginActivity::class.java)
             startActivity(intent)*/
 
-            Intent(this,LoginActivity::class.java).apply {
+            /*Intent(this,LoginActivity::class.java).apply {
+                startActivity(this)
+                finish()
+            }*/
+
+            Intent(this,MainActivity::class.java).apply {
                 startActivity(this)
                 finish()
             }
